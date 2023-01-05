@@ -1,1 +1,1 @@
-# spring-boot-begginer
+# spring-boot-beginner
