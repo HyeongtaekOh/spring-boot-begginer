@@ -2,6 +2,7 @@ package com.exercise.springBeginner;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.nio.file.Files;
@@ -13,6 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
+@RequestMapping("/api/v1/")
 public class FileReadController {
 
   @GetMapping("/read-file")
